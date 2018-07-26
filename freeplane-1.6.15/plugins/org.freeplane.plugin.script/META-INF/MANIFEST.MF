@@ -1,0 +1,75 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.freeplane.plugin.script
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1526226117985
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Vendor: Freeplane Project
+Import-Package: org.osgi.framework;version="1.3.0",org.freeplane.core.
+ extension,org.freeplane.core.io.xml,org.freeplane.core.resources,org.
+ freeplane.core.resources.components,org.freeplane.core.ui,org.freepla
+ ne.core.ui.components,org.freeplane.core.ui.menubuilders,org.freeplan
+ e.core.ui.menubuilders.generic,org.freeplane.core.undo,org.freeplane.
+ core.util,org.freeplane.features.attribute,org.freeplane.features.att
+ ribute.mindmapmode,org.freeplane.features.clipboard,org.freeplane.fea
+ tures.clipboard.mindmapmode,org.freeplane.features.cloud,org.freeplan
+ e.features.cloud.mindmapmode,org.freeplane.features.edge,org.freeplan
+ e.features.edge.mindmapmode,org.freeplane.features.encrypt,org.freepl
+ ane.features.encrypt.mindmapmode,org.freeplane.features.export.mindma
+ pmode,org.freeplane.features.filter,org.freeplane.features.filter.con
+ dition,org.freeplane.features.format,org.freeplane.features.icon,org.
+ freeplane.features.icon.factory,org.freeplane.features.icon.mindmapmo
+ de,org.freeplane.features.link,org.freeplane.features.link.mindmapmod
+ e,org.freeplane.features.map,org.freeplane.features.map.mindmapmode,o
+ rg.freeplane.features.mapio,org.freeplane.features.mapio.mindmapmode,
+ org.freeplane.features.mode,org.freeplane.features.mode.mindmapmode,o
+ rg.freeplane.features.nodelocation,org.freeplane.features.nodelocatio
+ n.mindmapmode,org.freeplane.features.nodestyle,org.freeplane.features
+ .nodestyle.mindmapmode,org.freeplane.features.note,org.freeplane.feat
+ ures.note.mindmapmode,org.freeplane.features.script,org.freeplane.fea
+ tures.styles,org.freeplane.features.styles.mindmapmode,org.freeplane.
+ features.text,org.freeplane.features.text.mindmapmode,org.freeplane.f
+ eatures.ui,org.freeplane.features.url.mindmapmode,org.freeplane.main.
+ addons,org.freeplane.main.application,org.freeplane.main.osgi,org.fre
+ eplane.n3.nanoxml,org.freeplane.view.swing.features.filepreview,org.f
+ reeplane.view.swing.features.time.mindmapmode,org.freeplane.view.swin
+ g.map,org.freeplane.view.swing.map.attribute,com.jgoodies.forms.build
+ er,com.jgoodies.forms.factories,com.jgoodies.forms.layout,org.apache.
+ commons.io,org.apache.commons.lang,jsyntaxpane.actions,com.inet.jorth
+ o,org.freeplane.core.io,org.freeplane.core.ui.components.calendar,org
+ .freeplane.core.ui.components.html,org.freeplane.core.ui.textchanger,
+ org.freeplane.core.ui.menubuilders.action,org.freeplane.core.ui.menub
+ uilders.menu,org.freeplane.core.util.collection,org.freeplane.feature
+ s.help,org.freeplane.features.map.filemode,org.freeplane.features.mod
+ e.browsemode,org.freeplane.features.mode.filemode,org.freeplane.featu
+ res.nodestyle.filemode,org.freeplane.features.print,org.freeplane.fea
+ tures.spellchecker.mindmapmode,org.freeplane.features.time,org.freepl
+ ane.features.url,org.freeplane.main.applet,org.freeplane.main.applica
+ tion.protocols.freeplaneresource,org.freeplane.main.browsemode,org.fr
+ eeplane.main.filemode,org.freeplane.main.headlessmode,org.freeplane.m
+ ain.mindmapmode,org.freeplane.main.mindmapmode.stylemode,org.freeplan
+ e.plugin.macos,org.freeplane.view.swing.features,org.freeplane.view.s
+ wing.features.nodehistory,org.freeplane.view.swing.features.progress.
+ mindmapmode,org.freeplane.view.swing.map.cloud,org.freeplane.view.swi
+ ng.map.edge,org.freeplane.view.swing.map.link,org.freeplane.view.swin
+ g.map.mindmapmode,org.freeplane.view.swing.ui,org.freeplane.view.swin
+ g.ui.mindmapmode,com.jgoodies.forms.debug,com.jgoodies.forms.util,com
+ .lightdev.app.shtm,org.apache.commons.io.comparator,org.apache.common
+ s.io.filefilter,org.apache.commons.io.input,org.apache.commons.io.mon
+ itor,org.apache.commons.io.output,org.apache.commons.lang.builder,org
+ .apache.commons.lang.exception,org.apache.commons.lang.math,org.apach
+ e.commons.lang.time,jsyntaxpane,jsyntaxpane.lexers,jsyntaxpane.syntax
+ kits
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Class-Path: lib/plugin-1.5.jar, lib/groovy-all-2.3.1.jar, lib/groovy-p
+ atcher-0.0.2.jar, lib/byte-buddy-1.7.9.jar
+Tool: Bnd-3.4.0.201707252008
+Export-Package: org.freeplane.plugin.script,org.freeplane.plugin.scrip
+ t.addons,org.freeplane.plugin.script.filter,org.freeplane.plugin.scri
+ pt.proxy
+Bundle-Name: org.freeplane.plugin.script
+Bundle-Version: 1.5
+Bundle-ClassPath: ., lib/plugin-1.5.jar, lib/groovy-all-2.3.1.jar, lib
+ /groovy-patcher-0.0.2.jar, lib/byte-buddy-1.7.9.jar
+Bundle-Activator: org.freeplane.plugin.script.Activator
+Created-By: 1.8.0_162 (Oracle Corporation)
+

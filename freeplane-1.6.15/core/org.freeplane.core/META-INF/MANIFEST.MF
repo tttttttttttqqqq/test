@@ -1,0 +1,82 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.freeplane.core
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1526225665420
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Vendor: Freeplane Project
+Import-Package: org.osgi.framework;version="[1.8,2)",org.osgi.service.
+ url;version="1.0.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Class-Path: lib/freeplaneviewer.jar, lib/freeplaneeditor-1.5.jar, lib/
+ freeplane_mac-1.5.jar, lib/freeplaneosgi-1.5.jar, lib/framework-8.0.4
+ .jar, lib/kitfox-svg-salamander-1.1.1-p1.jar, lib/jortho-1.5.jar, lib
+ /commons-lang-2.6.jar, lib/commons-io-2.4.jar, lib/commons-codec-1.7.
+ jar, lib/jgoodies-forms-1.9.0.jar, lib/jgoodies-common-1.8.1.jar, lib
+ /SimplyHTML-0.17.3.jar, lib/idw-gpl-1.6.1.jar, lib/mnemonicsetter-0.5
+ .jar
+Tool: Bnd-3.4.0.201707252008
+Export-Package: com.inet.jortho,org.freeplane.core.extension,org.freep
+ lane.core.io,org.freeplane.core.io.xml,org.freeplane.core.resources,o
+ rg.freeplane.core.resources.components,org.freeplane.core.ui,org.free
+ plane.core.ui.components,org.freeplane.core.ui.components.calendar,or
+ g.freeplane.core.ui.components.html,org.freeplane.core.ui.textchanger
+ ,org.freeplane.core.ui.menubuilders,org.freeplane.core.ui.menubuilder
+ s.action,org.freeplane.core.ui.menubuilders.generic,org.freeplane.cor
+ e.ui.menubuilders.menu,org.freeplane.core.undo,org.freeplane.core.uti
+ l,org.freeplane.core.util.collection,org.freeplane.features.attribute
+ ,org.freeplane.features.attribute.mindmapmode,org.freeplane.features.
+ clipboard,org.freeplane.features.clipboard.mindmapmode,org.freeplane.
+ features.cloud,org.freeplane.features.cloud.mindmapmode,org.freeplane
+ .features.edge,org.freeplane.features.edge.mindmapmode,org.freeplane.
+ features.encrypt,org.freeplane.features.encrypt.mindmapmode,org.freep
+ lane.features.export.mindmapmode,org.freeplane.features.filter,org.fr
+ eeplane.features.filter.condition,org.freeplane.features.format,org.f
+ reeplane.features.help,org.freeplane.features.icon,org.freeplane.feat
+ ures.icon.factory,org.freeplane.features.icon.mindmapmode,org.freepla
+ ne.features.link,org.freeplane.features.link.mindmapmode,org.freeplan
+ e.features.map,org.freeplane.features.map.filemode,org.freeplane.feat
+ ures.map.mindmapmode,org.freeplane.features.mapio,org.freeplane.featu
+ res.mapio.mindmapmode,org.freeplane.features.mode,org.freeplane.featu
+ res.mode.browsemode,org.freeplane.features.mode.filemode,org.freeplan
+ e.features.mode.mindmapmode,org.freeplane.features.nodelocation,org.f
+ reeplane.features.nodelocation.mindmapmode,org.freeplane.features.nod
+ estyle,org.freeplane.features.nodestyle.filemode,org.freeplane.featur
+ es.nodestyle.mindmapmode,org.freeplane.features.note,org.freeplane.fe
+ atures.note.mindmapmode,org.freeplane.features.print,org.freeplane.fe
+ atures.script,org.freeplane.features.spellchecker.mindmapmode,org.fre
+ eplane.features.styles,org.freeplane.features.styles.mindmapmode,org.
+ freeplane.features.text,org.freeplane.features.text.mindmapmode,org.f
+ reeplane.features.time,org.freeplane.features.ui,org.freeplane.featur
+ es.url,org.freeplane.features.url.mindmapmode,org.freeplane.main.addo
+ ns,org.freeplane.main.applet,org.freeplane.main.application,org.freep
+ lane.main.application.protocols.freeplaneresource,org.freeplane.main.
+ browsemode,org.freeplane.main.filemode,org.freeplane.main.headlessmod
+ e,org.freeplane.main.mindmapmode,org.freeplane.main.mindmapmode.style
+ mode,org.freeplane.main.osgi,org.freeplane.n3.nanoxml,org.freeplane.p
+ lugin.macos,org.freeplane.view.swing.features,org.freeplane.view.swin
+ g.features.filepreview,org.freeplane.view.swing.features.nodehistory,
+ org.freeplane.view.swing.features.progress.mindmapmode,org.freeplane.
+ view.swing.features.time.mindmapmode,org.freeplane.view.swing.map,org
+ .freeplane.view.swing.map.attribute,org.freeplane.view.swing.map.clou
+ d,org.freeplane.view.swing.map.edge,org.freeplane.view.swing.map.link
+ ,org.freeplane.view.swing.map.mindmapmode,org.freeplane.view.swing.ui
+ ,org.freeplane.view.swing.ui.mindmapmode,com.jgoodies.forms.builder,c
+ om.jgoodies.forms.debug,com.jgoodies.forms.factories,com.jgoodies.for
+ ms.layout,com.jgoodies.forms.util,com.lightdev.app.shtm,org.apache.co
+ mmons.io,org.apache.commons.io.comparator,org.apache.commons.io.filef
+ ilter,org.apache.commons.io.input,org.apache.commons.io.monitor,org.a
+ pache.commons.io.output,org.apache.commons.lang,org.apache.commons.la
+ ng.builder,org.apache.commons.lang.exception,org.apache.commons.lang.
+ math,org.apache.commons.lang.time
+Bundle-Name: org.freeplane.core
+Bundle-Version: 1.5
+Bundle-ClassPath: ., lib/freeplaneviewer.jar, lib/freeplaneeditor-1.5.
+ jar, lib/freeplane_mac-1.5.jar, lib/freeplaneosgi-1.5.jar, lib/framew
+ ork-8.0.4.jar, lib/kitfox-svg-salamander-1.1.1-p1.jar, lib/jortho-1.5
+ .jar, lib/commons-lang-2.6.jar, lib/commons-io-2.4.jar, lib/commons-c
+ odec-1.7.jar, lib/jgoodies-forms-1.9.0.jar, lib/jgoodies-common-1.8.1
+ .jar, lib/SimplyHTML-0.17.3.jar, lib/idw-gpl-1.6.1.jar, lib/mnemonics
+ etter-0.5.jar
+Bundle-Activator: org.freeplane.main.osgi.Activator
+Created-By: 1.8.0_162 (Oracle Corporation)
+
